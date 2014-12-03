@@ -1,0 +1,13 @@
+Build/**
+
+xcuserdata
+
+# Pods
+Pods
+
+#os-x
+.DS_Store
+Icon
+
+# Thumbnails
+._*

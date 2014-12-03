@@ -1,0 +1,15 @@
+language: objective-c
+
+before_install:
+    - gem install cocoapods
+    # - pod install
+
+xcode_project: Examples/JPAttributedStringBuilder.xcodeproj
+xcode_scheme: JPAttributedStringBuilder Examples
+xcode_sdk:
+    - iphonesimulator8.1
+    - iphonesimulator7.1
+    - iphonesimulator7.0
+
+notifications:
+  email: false
