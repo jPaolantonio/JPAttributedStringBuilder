@@ -91,12 +91,12 @@
                                                                                               NSBackgroundColorAttributeName : [UIColor lightGrayColor]}];
     
     JPAttributedStringBuilder *stringBuilder = [[JPAttributedStringBuilder alloc] init];
-    stringBuilder.font = [UIFont systemFontOfSize:14.f];
-    stringBuilder.foregroundColor = [UIColor redColor];
-    stringBuilder.backgroundColor = [UIColor lightGrayColor];
-    stringBuilder.text = @"This is a better string";
+    stringBuilder.withFont([UIFont systemFontOfSize:14.f]);
+    stringBuilder.withForegroundColor([UIColor redColor]);
+    stringBuilder.withBackgroundColor([UIColor lightGrayColor]);
+    stringBuilder.withText(@"This is a better string");
     
-    NSAttributedString *jpAttributedString = [stringBuilder build];
+    NSAttributedString *jpAttributedString = stringBuilder.build();
     
     self.attributedLabel.attributedText = normalAttributedString;
     self.jpAttributedLabel.attributedText = jpAttributedString;

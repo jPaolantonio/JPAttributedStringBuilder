@@ -35,14 +35,14 @@ NSMutableAttributedString *text = [[NSMutableAttributedString alloc] init];
      [[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@\n", self.search.neighborhoodsString]
                                      attributes:@{
                                                   NSFontAttributeName : [UIFont proximaNovaBoldWithSize:16.0f],
-                                                  NSForegroundColorAttributeName : [UIColor ucDarkColor]
+                                                  NSForegroundColorAttributeName : [UIColor redColor]
                                                   }]];
 
 [text appendAttributedString:
      [[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@", self.bedPriceString]
                                      attributes:@{
                                                   NSFontAttributeName : [UIFont proximaNovaRegularWithSize:14.0f],
-                                                  NSForegroundColorAttributeName : [UIColor ucDarkColor]
+                                                  NSForegroundColorAttributeName : [UIColor blackColor]
                                                   }]];
 ```
 
@@ -50,12 +50,12 @@ Is this better?
 
 ```
 JPAttributedStringBuilder *stringBuilder = [[JPAttributedStringBuilder alloc] init];
-stringBuilder.font = [UIFont systemFontOfSize:14.f];
-stringBuilder.foregroundColor = [UIColor redColor];
-stringBuilder.backgroundColor = [UIColor lightGrayColor];
-stringBuilder.text = @"This is a better string";
+stringBuilder.withFont([UIFont systemFontOfSize:14.f]);
+stringBuilder.withForegroundColort([UIColor redColor]);
+stringBuilder.withBackgroundColort([UIColor lightGrayColor]);
+stringBuilder.withText(@"This is a better string");
 
-NSAttributedString *jpAttributedString = [stringBuilder build];
+NSAttributedString *jpAttributedString = stringBuilder.build();
 ```
 
 ## Examples

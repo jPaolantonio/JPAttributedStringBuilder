@@ -17,6 +17,7 @@
 		4A1F79671A4323690021AF6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F79631A4323690021AF6E /* Main.storyboard */; };
 		4A1F79681A4323690021AF6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F79651A4323690021AF6E /* Images.xcassets */; };
 		4A1F796B1A43237D0021AF6E /* JPAttributedStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1F796A1A43237D0021AF6E /* JPAttributedStringBuilder.m */; };
+		4A1F79711A44DDC10021AF6E /* UILabel+JPAttributedStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1F79701A44DDC10021AF6E /* UILabel+JPAttributedStringBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		4A1F79651A4323690021AF6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "JPAttributedStringBuilder Examples/Images.xcassets"; sourceTree = SOURCE_ROOT; };
 		4A1F79691A43237D0021AF6E /* JPAttributedStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPAttributedStringBuilder.h; path = ../JPAttributedStringBuilder/JPAttributedStringBuilder.h; sourceTree = "<group>"; };
 		4A1F796A1A43237D0021AF6E /* JPAttributedStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPAttributedStringBuilder.m; path = ../JPAttributedStringBuilder/JPAttributedStringBuilder.m; sourceTree = "<group>"; };
+		4A1F796F1A44DDC10021AF6E /* UILabel+JPAttributedStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+JPAttributedStringBuilder.h"; path = "../JPAttributedStringBuilder/UILabel+JPAttributedStringBuilder.h"; sourceTree = "<group>"; };
+		4A1F79701A44DDC10021AF6E /* UILabel+JPAttributedStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+JPAttributedStringBuilder.m"; path = "../JPAttributedStringBuilder/UILabel+JPAttributedStringBuilder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 			children = (
 				4A1F79691A43237D0021AF6E /* JPAttributedStringBuilder.h */,
 				4A1F796A1A43237D0021AF6E /* JPAttributedStringBuilder.m */,
+				4A1F796F1A44DDC10021AF6E /* UILabel+JPAttributedStringBuilder.h */,
+				4A1F79701A44DDC10021AF6E /* UILabel+JPAttributedStringBuilder.m */,
 			);
 			name = JPAttributedStringBuilder;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 				4A1F795F1A4323370021AF6E /* ViewController.m in Sources */,
 				4A1F795E1A4323370021AF6E /* main.m in Sources */,
 				4A1F796B1A43237D0021AF6E /* JPAttributedStringBuilder.m in Sources */,
+				4A1F79711A44DDC10021AF6E /* UILabel+JPAttributedStringBuilder.m in Sources */,
 				4A1F79591A4323370021AF6E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

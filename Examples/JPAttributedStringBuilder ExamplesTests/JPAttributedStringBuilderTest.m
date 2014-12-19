@@ -29,30 +29,30 @@
     JPAttributedStringBuilder *stringBuilder = [[JPAttributedStringBuilder alloc] init];
     XCTAssertNotNil(stringBuilder);
     
-    NSAttributedString *attributedString = [stringBuilder build];
-    XCTAssertNil(attributedString);
+    NSAttributedString *attributedString = stringBuilder.build();
+    XCTAssertNotNil(attributedString);
 }
 
 - (void)testBuilder {
     JPAttributedStringBuilder *stringBuilder = [[JPAttributedStringBuilder alloc] init];
     XCTAssertNotNil(stringBuilder);
     
-    stringBuilder.font = [UIFont systemFontOfSize:14.f];
-    stringBuilder.paragraphStyle = [[NSParagraphStyle alloc] init];
-    stringBuilder.foregroundColor = [UIColor redColor];
-    stringBuilder.backgroundColor = [UIColor lightGrayColor];
-    stringBuilder.ligature = @1;
-    stringBuilder.kern = @2;
-    stringBuilder.strikethroughStyle = @3;
-    stringBuilder.underlineStyle = @4;
-    stringBuilder.strokeColor = [UIColor blueColor];
-    stringBuilder.strokeWidth = @1.5;
-    stringBuilder.shadow = [[NSShadow alloc] init];
-    stringBuilder.textEffect = @"";
+    stringBuilder.withFont([UIFont systemFontOfSize:14.f]);
+    stringBuilder.withParagraphStyle([[NSParagraphStyle alloc] init]);
+    stringBuilder.withForegroundColor([UIColor redColor]);
+    stringBuilder.withBackgroundColor([UIColor lightGrayColor]);
+    stringBuilder.withLigature(@1);
+    stringBuilder.withKern(@2);
+    stringBuilder.withStrikethroughStyle(@3);
+    stringBuilder.withUnderlineStyle(@4);
+    stringBuilder.withStrokeColor([UIColor blueColor]);
+    stringBuilder.withStrokeWidth(@1.5);
+    stringBuilder.withShadow([[NSShadow alloc] init]);
+    stringBuilder.withTextEffect(@"");
     
-    stringBuilder.text = @"This is a great string";
+    stringBuilder.withText(@"This is a great string");
     
-    NSAttributedString *attributedString = [stringBuilder build];
+    NSAttributedString *attributedString = stringBuilder.build();
     XCTAssertNotNil(attributedString);
     XCTAssertEqualObjects(attributedString.string, @"This is a great string");
 }
