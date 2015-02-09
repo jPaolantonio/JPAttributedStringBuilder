@@ -10,14 +10,14 @@
 	<string>JPAttributedStringBuilder</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0BC00F95F9AE6EAB1CE2E807B07F915D214FB22F</key>
+		<key>9E5039754FCAD8F72EB5C1136F4D5ACF6ECB02BA</key>
 		<string>https://github.com/jPaolantonio/JPAttributedStringBuilder.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>JPAttributedStringBuilder.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0BC00F95F9AE6EAB1CE2E807B07F915D214FB22F</key>
+		<key>9E5039754FCAD8F72EB5C1136F4D5ACF6ECB02BA</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0BC00F95F9AE6EAB1CE2E807B07F915D214FB22F</string>
+	<string>9E5039754FCAD8F72EB5C1136F4D5ACF6ECB02BA</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0BC00F95F9AE6EAB1CE2E807B07F915D214FB22F</string>
+			<string>9E5039754FCAD8F72EB5C1136F4D5ACF6ECB02BA</string>
 			<key>IDESourceControlWCCName</key>
 			<string>JPAttributedStringBuilder</string>
 		</dict>
